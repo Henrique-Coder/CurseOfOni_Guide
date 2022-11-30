@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">CurseOfOni_Guide</string>
+    <string name="app_name">Curse of Oni - Guide</string>
+    <string name="menu_tituloInicial">Guia explicativo sobre o jogo Curse of Oni</string>
+    <string name="menu_btn.historiaPersonagens">História dos Personagens</string>
+    <string name="menu_btn.locaisMapa">Locais do Mapa</string>
+    <string name="menu_btn.inspiracoes">Inspirações</string>
+    <string name="menu_btn.curiosidadesProducao">Curiosidades da produção</string>
 </resources>

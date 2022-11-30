@@ -4,4 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaInicial"/>
+    android:background="#32323C"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/olderwood_logobanner"
+        android:layout_width="398dp"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/olderwood_logobanner"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/menu_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/menu_tituloInicial"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:onClick="IR_activity_historia_personagens"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/olderwood_logobanner" />
+
+    <Button
+        android:id="@+id/locais_mapa"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="78dp"
+        android:text="@string/menu_btn.locaisMapa"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historia_personagens" />
+
+    <Button
+        android:id="@+id/inspiracoes"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="78dp"
+        android:text="@string/menu_btn.inspiracoes"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locais_mapa" />
+
+    <Button
+        android:id="@+id/historia_personagens"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="78dp"
+        android:text="@string/menu_btn.historiaPersonagens"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_inicio" />
+
+    <Button
+        android:id="@+id/curiosidades_producao"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="78dp"
+        android:text="@string/menu_btn.curiosidadesProducao"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inspiracoes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

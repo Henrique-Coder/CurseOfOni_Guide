@@ -1,4 +1,4 @@
-package com.example.curseofoni_guide;
+package com.example.curseofoniguide;
 
 import org.junit.Test;
 
