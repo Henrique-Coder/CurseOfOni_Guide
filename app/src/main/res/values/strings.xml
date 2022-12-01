@@ -2,7 +2,38 @@
     <string name="app_name">Curse of Oni - Guide</string>
     <string name="menu_tituloInicial">Guia explicativo sobre o jogo Curse of Oni</string>
     <string name="menu_btn.historiaPersonagens">História dos Personagens</string>
-    <string name="menu_btn.locaisMapa">Locais do Mapa</string>
+    <string name="menu_btn.locaisMapa">Localidades do Mapa</string>
     <string name="menu_btn.inspiracoes">Inspirações</string>
     <string name="menu_btn.curiosidadesProducao">Curiosidades da produção</string>
+    <string name="olderwood_logobanner.contentDescription">Older Wood - Logobanner</string>
+
+    <string name="historiaPersonagens_titulo">História dos Personagens</string>
+    <string name="historiaPersonagens_info">
+        <b> Noroi</b>
+        \nO Protagonista da história, ele era um guerreiro honrado, até que foi amaldiçoado e perdeu tudo que tinha na vida, agora, vive em busca de redenção.\n\n
+        <b> Bigbig</b>
+        \nO líder da cidade, ele quem controla tudo que acontece lá e foi o responsável por condenar Noroi ao exílio.\n\n
+        <b> Monge</b>
+        \nFoi o criador da maldição que utilizaram pra afligir Noroi, somente com sua morte a maldição pode ser apagada. Ele era a pessoa que influenciava nas decisões do Bigbig.</string>
+
+    <string name="locaisMapa_titulo">Localidades no Mapa</string>
+    <string name="locaisMapa_info">
+        <b> Cidade</b>
+        \nÉ onde o Bigbig controla, e onde Noroi viveu grande parte de sua vida e também é onde estão a maioria das pessoas.\n\n
+        <b> Arrozais</b>
+        \nPlantações para alimentar a cidade e venda para outras cidades.\n\n
+        <b> Árvore Sagrada</b>
+        \nUma árvore gigantesca, é um local sagrado para a população da cidade.\n\n
+        <b> Mansão do Bigbig</b>
+        \nÉ uma mansão grande que fica atrás da cidade, é onde o Bigbig mora e onde lutamos com ele.</string>
+
+    <string name="inspiracoes_titulo">Inspirações</string>
+    <string name="inspiracoes_info">Lendas comuns do japão, como kitsunes e onis. Lendas japonesas profundas, sobre temas relacionados a sentimentos comumente.</string>
+
+    <string name="curiosidadesProducao_titulo">Curiosidades das Produção</string>
+    <string name="curiosidadesProducao_info">
+        <b> Bigbig</b>
+        \nO nome dele seria Okina, porém, durante o desenvolvimento acabamos por chamá-lo carinhosamente de Bigbig, já que Okina significa Grande.\n\n
+        <b> Kitsune</b>
+        \nOriginalmente, teria um terceiro boss, a Kitsune, porém, acabou não dando certo e seu local de combate acabou apenas ficando como ponto "turístico", e sem haver combate com o boss em específico.</string>
 </resources>

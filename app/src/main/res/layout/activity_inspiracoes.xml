@@ -2,8 +2,57 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inspiracoes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#32323C"
     tools:context=".inspiracoes">
 
+    <ImageButton
+        android:id="@+id/backToMenu"
+        android:layout_width="53dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="OPEN_activity_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/historiaPersonagens_info2"
+        android:layout_width="269dp"
+        android:layout_height="436dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/alegreya_sans"
+        android:text="@string/inspiracoes_info"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inspiracoes_titulo" />
+
+    <TextView
+        android:id="@+id/inspiracoes_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/inspiracoes_titulo"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
